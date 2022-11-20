@@ -1,0 +1,106 @@
+
+
+Concepts:
+
+  Reverse:
+    String
+    Array:
+      normal reverse using for or while
+      built reverse():
+        Reverses the elements in an array in place. This method mutates the array and returns a reference to the same array.
+    Palindrome
+
+  Iterate through Digits of a number
+
+  Sorting:
+    using built method <array>.sort() can be used when all the elements digits are same or strings
+    Bubble Sort
+      Ascending & Descending
+
+
+Solve:
+  5. You are provided with an array in which all elements are repeated thrice except one which is repeated twice.Your task is to print that number.
+  8. You are given a number with duplicate digits your task is to remove the immediate duplicate digits and print the result
+  10. You are given an array of numbers. Print the least occurring element. If there is more than 1 element print all of them in decreasing order of their value.
+  12. Find the first 0 in window of size k. You  are given n numbers and window size ‘w’
+  3. You are given with two arrays. Your task is to merge the array such that first array is in ascending order and second one in descending order.
+
+
+
+Tasks:
+
+1. You are given an array of ids of prisoners. The jail authority found that there are some prisoners of same id. Your task is to help the authority in finding the common ids.
+
+Input Description:
+First line contains a number ‘n’ representing no of prisoners. Next line contains n space separated numbers.
+
+Output Description:
+Print the ids which are not unique. Print -1 if all ids are unique
+
+Sample Input :
+7
+1 1 11 121 131 141 98
+Sample Output :
+1 
+
+6. You are given with an array of numbers, Your task is to print the difference of indices of largest and smallest number.All number are unique.
+
+Input Description:
+First line contains a number ‘n’. Then next line contains n space separated numbers.
+
+Output Description:
+Print the difference of indices of largest and smallest array
+
+Sample Input :
+5
+1 6 4 0 3
+Sample Output :
+-2
+
+4. You are given with an array. For each element present in the array your task is to print the next smallest than that number. If it is not smallest print -1
+
+Input Description:
+You are given a number ‘n’ representing size of array. And n space separated numbers.
+
+Output Description:
+Print the next smallest number present in array and -1 if no smallest is present
+
+Sample Input :
+7
+10 7 9 3 2 1 15
+Sample Output :
+7 3 3 2 1 -1 -1
+
+9. A person saves his monthly saving according to given schema. He saves same amount of money which is equal to the money saved in immediate previous two months. Assume, initially he saved 1000 rupees and in first month he saved another 1000. Your task is to tell how much he had totally saved at the end of ‘n’ months
+
+Input Description:
+You will be given a number ‘n’->No. of months
+
+Output Description:
+Print the total savings at the end of ‘n’ months
+
+Sample Input :
+1
+Sample Output :
+2000
+
+11. Assume you are a student studying in school.You are given a task to find first negative integer for each and every window of size k.
+
+Input Description:
+First line contains an integer n denoting the size of the array. The next line contains n space separated integers forming the array. The last line contains the window size k.
+
+Output Description:
+Print the first negative integer in that window.If all the numbers are positive print 0
+
+Sample Input :
+7
+1 -2 -3 -4 5 6 -7
+3
+Sample Output :
+-2 -2 -3 -4 -7
+
+
+
+
+
+
